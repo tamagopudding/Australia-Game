@@ -9,6 +9,7 @@ public class ThirdPersonCam : MonoBehaviour
     public Transform player;
     public Transform playerObj;
     public Rigidbody rb;
+    public PlayerMovement playerMovement;
 
     public float rotationSpeed;
 
@@ -20,18 +21,20 @@ public class ThirdPersonCam : MonoBehaviour
 
     private void Update()
     {
-        // rotate orientation
-        Vector3 viewDir = player.position - new Vector3(transform.position.x, player.position.y, transform.position.z);
+        // rotate orientation base on swimming or not
+        //? acts as if statement and : works as else if aka ternary operator
+        //old script
+        //Vector3 viewDir = player.position - new Vector3(transform.position.x, player.position.y, transform.position.z);
+        Vector3 viewDir = player.position - (playerMovement.isSwimming ? transform.position: new Vector3(transform.position.x, player.position.y, transform.position.z));
         orientation.forward = viewDir.normalized;
 
         // rotate player object
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        //Debug.Log(horizontalInput + " " + verticalInput);
         Vector3 inputDir = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        
 
         if (inputDir != Vector3.zero)
             playerObj.forward = Vector3.Slerp(playerObj.forward, inputDir.normalized, Time.deltaTime * rotationSpeed);
-        //Debug.Log(playerObj.forward);
     }
 }
