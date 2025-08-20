@@ -76,6 +76,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            if(rb.useGravity == true)
+            {
+                rb.useGravity = false;
+            }
             if(Input.GetAxisRaw("Vertical") > 0)
             {
                 transform.position += target.forward * swimSpeed * Time.deltaTime;

@@ -7,9 +7,9 @@ public class Water : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player") && other.GetComponent<PlayerMovement>() != null)
+        if(other.CompareTag("Player") && other.GetComponentInParent<PlayerMovement>() != null)
         {
-            movement = other.GetComponent<PlayerMovement>();
+            movement = other.GetComponentInParent<PlayerMovement>();
             movement.isSwimming = true;
             movement.ResetVelocity();
         }
@@ -25,9 +25,9 @@ public class Water : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") && other.GetComponent<PlayerMovement>() != null)
+        if (other.CompareTag("Player") && other.GetComponentInParent<PlayerMovement>() != null)
         {
-            PlayerMovement movement = other.GetComponent<PlayerMovement>();
+            PlayerMovement movement = other.GetComponentInParent<PlayerMovement>();
             movement.isSwimming = false;
             movement.ResetVelocity();
         }
