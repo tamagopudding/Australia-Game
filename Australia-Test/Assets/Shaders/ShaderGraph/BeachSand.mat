@@ -53,11 +53,11 @@ Material:
     - _Mix: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Size: 9.53
+    - _Size: 11
     m_Colors:
     - _Color: {r: 0.9748427, g: 0.5016097, b: 0.31575078, a: 1}
-    - _ColorA: {r: 0, g: 0, b: 0, a: 1}
-    - _ColorB: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorA: {r: 0, g: 0, b: 0, a: 0.29803923}
+    - _ColorB: {r: 1, g: 1, b: 1, a: 0.34901962}
     - _TurtlePosition: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

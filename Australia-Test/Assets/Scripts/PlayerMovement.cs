@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
+using System.Security.Cryptography.X509Certificates;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -43,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
     }
-
+    
     private void Update()
     {
         // ground check
@@ -157,3 +159,21 @@ public class PlayerMovement : MonoBehaviour
     }
 }
 
+
+
+//{
+// idk what these are
+//    [SerializeField] Material Greyscale;
+//    [SerializeField] Shader _TurtlePosition;
+//    [SerializeReference]
+
+// trying to make it so the shader grabs the co-ords of the player and uses those
+// in the shader graph
+//private void Update ()
+//    Vector3 playerPosition = Transform.postion;
+
+    //send player pos to shader
+//    _TurtlePosition.SetVector("_TutlePos", playerPostion)
+//}
+
+//something about grabbing the material the shader is connected (beach sand) and 
