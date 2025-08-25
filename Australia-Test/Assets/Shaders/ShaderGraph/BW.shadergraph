@@ -140,6 +140,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "343c484031d44274adc9c05af5e242e5"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "c7b087fa48b041b0850b2fd319eace84"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "8c9163bc575048599fad38f9241a20d6"
                 },
                 "m_SlotId": 0
@@ -233,6 +247,20 @@
                     "m_Id": "f16b1d1706aa42b983ecb2e5f80c138e"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "e73a66d993ba4a54bbb112d2b915e4a5"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "c7b087fa48b041b0850b2fd319eace84"
+                },
+                "m_SlotId": 1
             }
         },
         {
@@ -1658,10 +1686,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -599.3333740234375,
-            "y": 523.3334350585938,
-            "width": 209.3333740234375,
-            "height": 304.0
+            "x": -640.7999267578125,
+            "y": 529.6000366210938,
+            "width": 208.00003051757813,
+            "height": 301.5999755859375
         }
     },
     "m_Slots": [
@@ -2324,10 +2352,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -865.333251953125,
-            "y": 523.3333129882813,
-            "width": 209.333251953125,
-            "height": 280.0
+            "x": -940.7999267578125,
+            "y": 580.7999877929688,
+            "width": 208.0,
+            "height": 277.5999755859375
         }
     },
     "m_Slots": [
