@@ -3019,8 +3019,8 @@
     "m_ObjectId": "9eb2a7b4362b4b0d84b149b90e6cd241",
     "m_Title": "Water Refraction",
     "m_Position": {
-        "x": -1960.0,
-        "y": -867.9999389648438
+        "x": -1960.0001220703125,
+        "y": -868.0
     }
 }
 
