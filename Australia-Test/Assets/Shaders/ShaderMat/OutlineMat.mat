@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2165688472262314393
+--- !u!114 &-5930760127844719588
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Caustics
-  m_Shader: {fileID: -6465566751694194690, guid: 6853b65612ad5514f8a4169882c13ffd, type: 3}
+  m_Name: OutlineMat
+  m_Shader: {fileID: -6465566751694194690, guid: 7ba2207cc02dfac448af74d7849bf6dd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -31,7 +31,8 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -50,15 +51,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.36
-    - _DecalMeshBiasType: 0
-    - _DecalMeshDepthBias: 0
-    - _DecalMeshViewBias: 0
-    - _Density: 2.87
-    - _DrawOrder: 0
-    - _Offset: -1.73
-    - _Power: -2.45
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Scale: 0.8
     m_Colors:
-    - _Color: {r: 0.93396217, g: 1, b: 0.987157, a: 1}
+    - _Outline_Color: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
