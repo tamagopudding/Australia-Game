@@ -6,9 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //Sound
-    public AudioSource Walksnd;
-    public AudioSource SwimSnd;
+    
 
     //Swimming
     [HideInInspector]
