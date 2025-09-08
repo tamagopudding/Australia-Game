@@ -3,7 +3,7 @@ using UnityEngine;
 public class SoundControler : MonoBehaviour
 {
     AudioSource source;
-    AudioSource waterSource;
+    //AudioSource waterSource;
     Collider soundTrigger;
     Collider underwaterSound;
 
@@ -11,12 +11,13 @@ public class SoundControler : MonoBehaviour
     {
         source = GetComponent<AudioSource>();
         soundTrigger = GetComponent<Collider>();
-        underwaterSound = GetComponent<Collider>();
+        //underwaterSound = GetComponent<Collider>();
     }
 
     void OnTriggerEnter(Collider other)
     {
         source.Play();
-        waterSource.Play(); 
+        //waterSource.Play(); 
+        //gameObject.SetActive(false);
     }
 }

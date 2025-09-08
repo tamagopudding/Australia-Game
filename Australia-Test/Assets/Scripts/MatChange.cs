@@ -9,6 +9,7 @@ public class MatChange : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             myObject.material.color = Color.red;
+            //gameObject.SetActive(false);
         }
     }
 }
