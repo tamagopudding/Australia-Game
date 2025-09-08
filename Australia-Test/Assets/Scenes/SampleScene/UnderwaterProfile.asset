@@ -220,13 +220,13 @@ MonoBehaviour:
   active: 1
   lift:
     m_OverrideState: 1
-    m_Value: {x: 0.5573076, y: 0.7896532, z: 1, w: 0.04121595}
+    m_Value: {x: 0.8128441, y: 0.8473404, z: 1, w: 0.04121595}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 0.6878356, y: 0.73292273, z: 1, w: 0}
+    m_Value: {x: 0.8917067, y: 0.9557817, z: 1, w: 0}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.63556314, z: 0.9186598, w: 0}
+    m_Value: {x: 1, y: 0.73133004, z: 0.96042216, w: 0}
 --- !u!114 &7339185132173780590
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   skipIterations:
     m_OverrideState: 0
     m_Value: 1
