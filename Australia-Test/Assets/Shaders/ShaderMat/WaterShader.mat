@@ -60,14 +60,14 @@ Material:
     - _CastShadows: 1
     - _Cull: 0
     - _DstBlend: 10
-    - _FoamAmount: 59.75
-    - _FoamCutOff: 2.3
-    - _FoamScale: 21
-    - _FoamSpeed: 0.6
+    - _FoamAmount: 25.64
+    - _FoamCutOff: 0.8
+    - _FoamScale: 72.62
+    - _FoamSpeed: 0.61
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionScale: 1.13
-    - _RefractionSpeed: 0.05
+    - _RefractionScale: 0.91
+    - _RefractionSpeed: 2.27
     - _RefractionStrength: 9.1
     - _SrcBlend: 5
     - _Surface: 1
