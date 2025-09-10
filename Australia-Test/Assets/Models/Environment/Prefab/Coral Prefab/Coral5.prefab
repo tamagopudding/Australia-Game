@@ -22,11 +22,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4c84b69253807f64e904491d3046504f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4c84b69253807f64e904491d3046504f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071069
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4c84b69253807f64e904491d3046504f, type: 3}
       propertyPath: m_LocalRotation.y
@@ -62,10 +62,50 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e3bedf0124b6d494c8372443907b5ed6, type: 2}
     - target: {fileID: 919132149155446097, guid: 4c84b69253807f64e904491d3046504f, type: 3}
       propertyPath: m_Name
-      value: coral5
+      value: Coral5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4c84b69253807f64e904491d3046504f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7134863984142192639}
   m_SourcePrefab: {fileID: 100100000, guid: 4c84b69253807f64e904491d3046504f, type: 3}
+--- !u!1 &3347102532367471818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4c84b69253807f64e904491d3046504f, type: 3}
+  m_PrefabInstance: {fileID: 2500102340315441563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &7134863984142192639
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3347102532367471818}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3851616121987626271}
+  - screenRelativeHeight: 0.12
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3851616121987626271}
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3851616121987626271}
+  m_Enabled: 1
+--- !u!23 &3851616121987626271 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 4c84b69253807f64e904491d3046504f, type: 3}
+  m_PrefabInstance: {fileID: 2500102340315441563}
+  m_PrefabAsset: {fileID: 0}
