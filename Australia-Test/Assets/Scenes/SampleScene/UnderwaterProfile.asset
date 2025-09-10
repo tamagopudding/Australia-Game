@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   color:
     m_OverrideState: 1
     m_Value: {r: 0.03441316, g: 0.0592085, b: 0.3773585, a: 1}
@@ -89,13 +89,13 @@ MonoBehaviour:
     m_Value: 100
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.27672952, g: 0.27672952, b: 0.27672952, a: 1}
+    m_Value: {r: 0.46540874, g: 0.3146631, b: 0.3146631, a: 1}
   hueShift:
     m_OverrideState: 0
     m_Value: -15
   saturation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -66
 --- !u!114 &-5620673312050919681
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -217,13 +217,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5485954d14dfb9a4c8ead8edb0ded5b1, type: 3}
   m_Name: LiftGammaGain
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   lift:
     m_OverrideState: 1
-    m_Value: {x: 0.9228261, y: 0.93970793, z: 1, w: 0.027610479}
+    m_Value: {x: 0.9636043, y: 0.96630704, z: 1, w: 0.027610479}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 0.8917067, y: 0.9557817, z: 1, w: -0.01360525}
+    m_Value: {x: 0.91874295, y: 0.94765073, z: 1, w: -0.01360525}
   gain:
     m_OverrideState: 1
     m_Value: {x: 1, y: 0.82562244, z: 0.9661782, w: 0.10204081}
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   skipIterations:
     m_OverrideState: 0
     m_Value: 1
