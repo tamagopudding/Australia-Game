@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   color:
     m_OverrideState: 1
     m_Value: {r: 0.03441316, g: 0.0592085, b: 0.3773585, a: 1}
@@ -21,7 +21,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.356
+    m_Value: 0.266
   smoothness:
     m_OverrideState: 0
     m_Value: 0.2
@@ -43,7 +43,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 2
   neutralHDRRangeReductionMode:
     m_OverrideState: 0
     m_Value: 2
@@ -82,20 +82,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   postExposure:
-    m_OverrideState: 0
-    m_Value: -2.69
+    m_OverrideState: 1
+    m_Value: -0.63
   contrast:
     m_OverrideState: 1
     m_Value: 100
   colorFilter:
-    m_OverrideState: 1
-    m_Value: {r: 0.46540874, g: 0.3146631, b: 0.3146631, a: 1}
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
     m_OverrideState: 0
     m_Value: -15
   saturation:
-    m_OverrideState: 1
-    m_Value: -66
+    m_OverrideState: 0
+    m_Value: -41.1
 --- !u!114 &-5620673312050919681
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -108,16 +108,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558a8e2b6826cf840aae193990ba9f2e, type: 3}
   m_Name: ShadowsMidtonesHighlights
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.6600307, y: 0.7109801, z: 1, w: 0}
+    m_Value: {x: 1, y: 0.65723425, z: 0.5528424, w: 0}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 0.96676004, y: 0.8941268, z: 1, w: 0}
+    m_Value: {x: 1, y: 0.85291964, z: 0.81959367, w: 0}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.8155878, z: 0.78920615, w: 0}
+    m_Value: {x: 0.7537361, y: 0.75657445, z: 1, w: 0}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5485954d14dfb9a4c8ead8edb0ded5b1, type: 3}
   m_Name: LiftGammaGain
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   lift:
     m_OverrideState: 1
     m_Value: {x: 0.9636043, y: 0.96630704, z: 1, w: 0.027610479}
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06437c1ff663d574d9447842ba0a72e4, type: 3}
   m_Name: ScreenSpaceLensFlare
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   intensity:
     m_OverrideState: 1
     m_Value: 31.29
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_Value: 65472
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.91823894, g: 0.6903987, b: 0.5861713, a: 1}
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
