@@ -1447,6 +1447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8971738216341711920, guid: a4bed9193d5c3b648827b5cda8abf88e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2523,6 +2527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral1
       objectReference: {fileID: 0}
+    - target: {fileID: 7412176326623684343, guid: 99d5b061665d04546933e530f7d84add, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7896648210687900749, guid: 99d5b061665d04546933e530f7d84add, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.00019130768
@@ -2818,6 +2826,10 @@ PrefabInstance:
     - target: {fileID: 5947985163863302773, guid: b4d8b6addc7ee9745858a3536e28b934, type: 3}
       propertyPath: m_Name
       value: Coral2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5947985163863302773, guid: b4d8b6addc7ee9745858a3536e28b934, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6467358536311371983, guid: b4d8b6addc7ee9745858a3536e28b934, type: 3}
       propertyPath: m_LocalScale.x
