@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class ThirdPersonCam : MonoBehaviour
 {
+    public Pause_Menu GameIsPaused;
+
     [Header("References")]
     public Transform orientation;
     public Transform player;
@@ -15,8 +17,20 @@ public class ThirdPersonCam : MonoBehaviour
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (GameIsPaused)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        
+
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
     }
 
     private void Update()
