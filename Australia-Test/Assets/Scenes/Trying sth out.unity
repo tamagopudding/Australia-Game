@@ -2607,6 +2607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4bdad23269df254d811bf52bc279a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameIsPaused: {fileID: 0}
   orientation: {fileID: 1819322271}
   player: {fileID: 1918906476}
   playerObj: {fileID: 1369507284}
@@ -3032,6 +3033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4bdad23269df254d811bf52bc279a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameIsPaused: {fileID: 0}
   orientation: {fileID: 1834103674}
   player: {fileID: 1321584358}
   playerObj: {fileID: 1153855122}

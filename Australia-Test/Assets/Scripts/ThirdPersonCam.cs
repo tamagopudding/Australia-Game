@@ -20,12 +20,12 @@ public class ThirdPersonCam : MonoBehaviour
         if (GameIsPaused)
         {
             Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            Cursor.visible = false;
         }
         else
         {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;   
+            Cursor.visible = true;
         }
         
 
