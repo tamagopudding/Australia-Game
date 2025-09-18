@@ -15,7 +15,9 @@ public class Translate1 : MonoBehaviour
     // public float moveDuration = 5;
    
     public Transform Trigger1;
+    //public Transform Trigger2;
     public Transform Destination1;
+    //public Transform Destination2;
     public float distance = 1;
 
     [Range(0, 1)] public float lerpSpeed;
@@ -43,6 +45,7 @@ public class Translate1 : MonoBehaviour
         if (moveTarget)
         {
             Trigger1.position = Vector3.Lerp(Trigger1.position, Destination1.position, Time.deltaTime * lerpSpeed);
+            //Trigger2.position = Vector3.Lerp(Trigger2.position, Destination2.position, Time.deltaTime * lerpSpeed);
         }
         //Trigger1.transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
     }
