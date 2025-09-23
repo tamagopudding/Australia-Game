@@ -15,7 +15,7 @@ public class PlayerInventory : MonoBehaviour
     {
         ++NumberOfItems;
         OnItemCollected.Invoke(this);
-        if (NumberOfItems >= 6)
+        if (NumberOfItems >= 7)
         {
             SceneManager.LoadScene("EndGame");
         }
