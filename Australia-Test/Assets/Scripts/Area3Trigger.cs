@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Area2Trigger : MonoBehaviour
+public class Area3Trigger : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -9,8 +9,8 @@ public class Area2Trigger : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
+    void Update()
     {
-        Shader.SetGlobalVector("_AreaPosition2", transform.position);
+        Shader.SetGlobalVector("_AreaPosition3", transform.position);
     }
 }

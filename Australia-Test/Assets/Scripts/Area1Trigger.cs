@@ -12,6 +12,5 @@ public class Area1Trigger : MonoBehaviour
     private void Update()
     {
         Shader.SetGlobalVector("_AreaPosition1", transform.position);
-        //Shader.SetGlobalVector("_AreaPosition2", transform.position);
     }
 }
