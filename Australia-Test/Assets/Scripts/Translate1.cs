@@ -13,21 +13,23 @@ public class Translate1 : MonoBehaviour
      //public Vector3 target = new Vector3(8, -2, 18);
     //Vector3 currentVelocity;
     // public float moveDuration = 5;
-   
-    public Transform Trigger1;
-    //public Transform Trigger2;
-    public Transform Destination1;
-    //public Transform Destination2;
-    public float distance = 1;
 
-    [Range(0, 1)] public float lerpSpeed;
 
-    public float moveValue;
+    [Range(0f, 25f)] public float lerpSpeed;
+
     public bool moveTarget = false;
+
+    public float currentSizeValue = 0f;
+    public float maximumSizeValue = 60f;
+
+    public string positionPropertyName = "_AreaPosition1";
+    public string sizePropertyName = "_Size1";
 
     private void Start()
     {
         //Trigger1.transform.position = Vector3.MoveTowards(Trigger1.transform.position, Destination1.transform.position, speed);
+        Shader.SetGlobalVector(positionPropertyName, transform.position);
+        Shader.SetGlobalFloat(sizePropertyName, 0f);
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -44,7 +46,10 @@ public class Translate1 : MonoBehaviour
     {
         if (moveTarget)
         {
-            Trigger1.position = Vector3.Lerp(Trigger1.position, Destination1.position, Time.deltaTime * lerpSpeed);
+            currentSizeValue = Mathf.MoveTowards(currentSizeValue, maximumSizeValue, Time.deltaTime * lerpSpeed);
+            Shader.SetGlobalFloat(sizePropertyName, currentSizeValue);
+            
+            //Trigger1.position = Vector3.Lerp(Trigger1.position, Destination1.position, Time.deltaTime * lerpSpeed);
             //Trigger2.position = Vector3.Lerp(Trigger2.position, Destination2.position, Time.deltaTime * lerpSpeed);
         }
         //Trigger1.transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
