@@ -41439,7 +41439,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153855121}
-  m_Mesh: {fileID: 5844265764129155506, guid: 8d807a0bc03bef846b719d3b55bf9596, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 7bd378ff13cd1f94793a3bf5f65e3bd8, type: 2}
 --- !u!1 &1157760328
 GameObject:
   m_ObjectHideFlags: 0
@@ -43876,6 +43876,7 @@ GameObject:
   - component: {fileID: 1321584358}
   - component: {fileID: 1321584357}
   - component: {fileID: 1321584356}
+  - component: {fileID: 1321584359}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -43898,7 +43899,7 @@ MonoBehaviour:
   isSwimming: 0
   swimSpeed: 10
   target: {fileID: 725399121}
-  moveSpeed: 7
+  moveSpeed: 9
   groundDrag: 5
   jumpForce: 12
   jumpCooldown: 0.25
@@ -43955,6 +43956,28 @@ Transform:
   - {fileID: 298192243}
   m_Father: {fileID: 1136471439}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1321584359
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321584355}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 68c35131790c91f43aeee653883ed44b, type: 3}
+  m_Controller: {fileID: 9100000, guid: 97af8f5d753b9d347a0783ce62e488be, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1325874092
 PrefabInstance:
   m_ObjectHideFlags: 0
