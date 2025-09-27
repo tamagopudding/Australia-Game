@@ -30,14 +30,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _EffectRadius: 0
-    - _MoveOffset: 12.74
-    - _StrideSpeed: 0.43
-    - _StrideStrength: 0.3
-    - _Threshold: 0
-    - _WaveDensity: 0.154
-    - _WaveHeight: 0.3
-    - _WaveSpeed: 3.3
-    - _Yoffset: 0
+    - _MoveOffset: 34.16
+    - _StrideSpeed: 0.36
+    - _StrideStrength: 0
+    - _Threshold: 0.8
+    - _WaveDensity: 0.94
+    - _WaveHeight: 0.2
+    - _WaveSpeed: 1.5
+    - _Yoffset: 56.4
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

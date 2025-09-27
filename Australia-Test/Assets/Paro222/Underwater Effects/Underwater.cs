@@ -27,7 +27,7 @@ public class Underwater : ScriptableRendererFeature
     {
         public Settings settings;
         private RenderTargetIdentifier source;
-        //RenderTargetHandle tempTexture;
+        RTHandle tempTexture;
 
         private string profilerTag;
 
@@ -44,7 +44,7 @@ public class Underwater : ScriptableRendererFeature
         public override void Configure(CommandBuffer cmd, RenderTextureDescriptor cameraTextureDescriptor)
         {
             //cmd.GetTemporaryRT(tempTexture.id, cameraTextureDescriptor);
-            //ConfigureTarget(tempTexture.Identifier());
+         //   ConfigureTarget(tempTexture.Identifier());
             ConfigureClear(ClearFlag.All, Color.black);
         }
 
@@ -90,7 +90,7 @@ public class Underwater : ScriptableRendererFeature
     }
 
     Pass pass;
-    //RenderTargetHandle renderTextureHandle;
+    RTHandle renderTextureHandle;
     public override void Create()
     {
         pass = new Pass("Underwater Effects");
@@ -100,8 +100,8 @@ public class Underwater : ScriptableRendererFeature
     }
     public override void SetupRenderPasses(ScriptableRenderer renderer, in RenderingData renderingData)
     {
-        //var cameraColorTargetIdent = renderer.cameraColorTarget;
-        //pass.Setup(cameraColorTargetIdent);
+        var cameraColorTargetIdent = renderer.cameraColorTargetHandle;
+        pass.Setup(cameraColorTargetIdent);
     }
 
     public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)

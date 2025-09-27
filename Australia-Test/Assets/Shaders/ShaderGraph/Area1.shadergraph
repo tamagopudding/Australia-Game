@@ -1864,8 +1864,8 @@
     "m_ObjectId": "1921780080114ca3b0b5570b2e2ce204",
     "m_Title": "Mask",
     "m_Position": {
-        "x": -5816.66650390625,
-        "y": 336.6666259765625
+        "x": -5816.6669921875,
+        "y": 336.66668701171877
     }
 }
 
@@ -6947,7 +6947,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Smoothness",
     "m_StageCapability": 2,
-    "m_Value": 0.5,
+    "m_Value": 0.0,
     "m_DefaultValue": 0.5,
     "m_Labels": []
 }
