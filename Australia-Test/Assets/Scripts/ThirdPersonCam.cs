@@ -21,11 +21,13 @@ public class ThirdPersonCam : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = false;
+            //Cursor.visible = true;
         }
         else
         {
             Cursor.lockState = CursorLockMode.Locked;   
-            Cursor.visible = true;
+            //Cursor.visible = true;
+            Cursor.visible = false;
         }
         
 

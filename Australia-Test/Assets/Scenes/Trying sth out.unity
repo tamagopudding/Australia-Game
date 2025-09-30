@@ -1438,12 +1438,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f110e027fd3584ea923356d068638a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Trigger1: {fileID: 855809245}
-  Destination1: {fileID: 79738550}
-  distance: 1
   lerpSpeed: 0.385
-  moveValue: 0
   moveTarget: 0
+  currentSizeValue: 0
+  maximumSizeValue: 70
+  positionPropertyName: _AreaPosition1
+  sizePropertyName: _Size1
 --- !u!1 &124497499
 GameObject:
   m_ObjectHideFlags: 0
@@ -3944,7 +3944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &454451215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4446,12 +4446,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f110e027fd3584ea923356d068638a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Trigger1: {fileID: 911804035}
-  Destination1: {fileID: 1100004681}
-  distance: 1
   lerpSpeed: 0.322
-  moveValue: 0
   moveTarget: 0
+  currentSizeValue: 0
+  maximumSizeValue: 70
+  positionPropertyName: _AreaPosition1
+  sizePropertyName: _Size1
 --- !u!136 &555190821
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5376,12 +5376,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f110e027fd3584ea923356d068638a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Trigger1: {fileID: 911349040}
-  Destination1: {fileID: 372398288}
-  distance: 1
   lerpSpeed: 0.344
-  moveValue: 0
   moveTarget: 0
+  currentSizeValue: 0
+  maximumSizeValue: 70
+  positionPropertyName: _AreaPosition1
+  sizePropertyName: _Size1
 --- !u!136 &677803391
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10791,12 +10791,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f110e027fd3584ea923356d068638a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Trigger1: {fileID: 574347052}
-  Destination1: {fileID: 269799925}
-  distance: 1
   lerpSpeed: 0.147
-  moveValue: 0
   moveTarget: 0
+  currentSizeValue: 0
+  maximumSizeValue: 70
+  positionPropertyName: _AreaPosition1
+  sizePropertyName: _Size1
 --- !u!136 &1449566785
 CapsuleCollider:
   m_ObjectHideFlags: 0
