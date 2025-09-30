@@ -20,7 +20,7 @@ public class Translate1 : MonoBehaviour
     public bool moveTarget = false;
 
     public float currentSizeValue = 0f;
-    public float maximumSizeValue = 60f;
+    public float maximumSizeValue = 70f;
 
     public string positionPropertyName = "_AreaPosition1";
     public string sizePropertyName = "_Size1";

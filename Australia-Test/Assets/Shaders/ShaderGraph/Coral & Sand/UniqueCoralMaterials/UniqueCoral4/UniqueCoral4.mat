@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BasemapB:
-        m_Texture: {fileID: 2800000, guid: 988a3e39a2bd29940b71ecb7dd9074b2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3e2240677e9e0574999be80e7b913913, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
