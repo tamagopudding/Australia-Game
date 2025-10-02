@@ -39,6 +39,10 @@ public class PlayerMovement : MonoBehaviour
     float verticalInput;
 
     Vector3 moveDirection;
+    //private CharacterController controller;
+
+    //aniamtions
+    private Animator animator;
 
     Rigidbody rb;
 
@@ -46,8 +50,10 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+        //controller = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
     }
-    
+
     private void Update()
     {
         //color
@@ -58,6 +64,12 @@ public class PlayerMovement : MonoBehaviour
 
         MyInput();
         SpeedControl();
+
+        //Animations
+        float speed = new Vector2(horizontalInput, verticalInput).magnitude;
+        animator.SetFloat("Speed", speed);
+
+
 
         // Handle drag 
         // had to use linear damping not drag as drag is obsolete  
