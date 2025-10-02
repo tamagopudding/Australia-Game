@@ -95,6 +95,15 @@ public class PlayerMovement : MonoBehaviour
             {
                 transform.position -= target.forward * swimSpeed * Time.deltaTime;
             }
+            if (Input.GetAxisRaw("Horizontal") > 0) // this is likely where horizontal input needs to be added for swimming
+            {
+                transform.position += target.right * swimSpeed * Time.deltaTime;
+            }
+            if (Input.GetAxisRaw("Horizontal") < 0)
+            {
+                transform.position -= target.right * swimSpeed * Time.deltaTime;
+            }
+             
         }
     }
 
@@ -106,7 +115,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void MyInput()
     {
+        //get access horizontal is getting keys A and D
         horizontalInput = Input.GetAxisRaw("Horizontal");
+        //get axis vertical is getting keys W and S
         verticalInput = Input.GetAxisRaw("Vertical");
 
         // when to jump
