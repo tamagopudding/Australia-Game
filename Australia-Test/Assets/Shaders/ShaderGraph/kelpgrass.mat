@@ -44,9 +44,9 @@ Material:
     m_Floats:
     - _Amplitude: 0.04
     - _DepthWaveFrequency: 0.3
-    - _HeightWaveFrequency: 0.16
+    - _HeightWaveFrequency: -1.44
     - _MaxMask: -0.14
-    - _MinMask: 0.01
+    - _MinMask: 2.08
     - _QueueControl: 0
     - _QueueOffset: 0
     - _WaveSpeed: 1.66

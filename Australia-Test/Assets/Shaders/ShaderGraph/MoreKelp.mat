@@ -24,6 +24,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -38,14 +42,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 1
+    - _Amplitude: 1.12
     - _DepthWaveFrequency: 0
-    - _HeightWaveFrequency: 1
-    - _MaxMask: 1
-    - _MinMask: -0.12
+    - _HeightWaveFrequency: -0.56
+    - _MaxMask: 0.5
+    - _MinMask: -0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _WaveSpeed: 1
+    - _WaveSpeed: 1.39
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
