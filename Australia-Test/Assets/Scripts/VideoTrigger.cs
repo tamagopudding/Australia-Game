@@ -6,7 +6,7 @@ public class VideoTrigger : MonoBehaviour
 {
     public GameObject videoPlayer;
     public int timeToStop;
-    public AudioSource jumpScareSnd;
+    public AudioSource CreditsSnd;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class VideoTrigger : MonoBehaviour
         {
             videoPlayer.SetActive(true);
             Destroy(videoPlayer, timeToStop);
-            jumpScareSnd.Play();
+            CreditsSnd.Play();
         }
     }
 
