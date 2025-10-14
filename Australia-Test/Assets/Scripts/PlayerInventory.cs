@@ -24,7 +24,7 @@ public class PlayerInventory : MonoBehaviour
     {
         ++NumberOfItems;
         OnItemCollected.Invoke(this);
-        if (NumberOfItems >= 8)
+        if (NumberOfItems >= 9)
         {
             videoPlayer.SetActive(true);
             //yield return new WaitForSeconds(timeToStop);
