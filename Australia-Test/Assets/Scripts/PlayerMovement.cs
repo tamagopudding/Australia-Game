@@ -68,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
         //Animations
         float speed = new Vector2(horizontalInput, verticalInput).magnitude;
         animator.SetFloat("Speed", speed);
+       
 
 
 
