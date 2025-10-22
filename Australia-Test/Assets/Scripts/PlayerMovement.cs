@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
     //private CharacterController controller;
 
     //aniamtions
-    private Animator animator;
+    public Animator animator;
 
     Rigidbody rb;
 
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         //controller = GetComponent<CharacterController>();
-        animator = GetComponent<Animator>();
+        
     }
 
     private void Update()
